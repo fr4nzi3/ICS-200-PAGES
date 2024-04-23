@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="week10.css">
+
+  <title>Rock, Paper, Scissors</title>
+</head>
+
+<body>
+  <main class="app">
+    <header class="heading">
+      <img src="https://raw.githubusercontent.com/Alpha437/Rock-Paper-Scissors/45ab15ee3c69df5ee1279d28a368a7562fffcf9a/images/logo.svg" alt="logo" class="logo">
+      <div class="score">
+        <p class="score-title">Score</p>
+        <p class="score-count">00</p>
+      </div>
+    </header>
+
+    <section class="game-body">
+      <img src="https://raw.githubusercontent.com/Alpha437/Rock-Paper-Scissors/45ab15ee3c69df5ee1279d28a368a7562fffcf9a/images/bg-triangle.svg" alt="" class="bg-triangle">
+      <div class="moves">
+        <button class="move--wrapper paper">
+          <img src="https://raw.githubusercontent.com/Alpha437/Rock-Paper-Scissors/45ab15ee3c69df5ee1279d28a368a7562fffcf9a/images/icon-paper.svg" alt="" class="paper-image move--icon">
+        </button>
+        <button class="move--wrapper scissors">
+          <img src="https://raw.githubusercontent.com/Alpha437/Rock-Paper-Scissors/45ab15ee3c69df5ee1279d28a368a7562fffcf9a/images/icon-scissors.svg" alt="" class="scissors-image move--icon">
+        </button>
+        <button class="move--wrapper rock">
+          <img src="https://raw.githubusercontent.com/Alpha437/Rock-Paper-Scissors/45ab15ee3c69df5ee1279d28a368a7562fffcf9a/images/icon-rock.svg" alt="" class="rock-image move--icon">
+        </button>
+      </div>
+
+      <div class="game-active ">
+        <div class="user-pick">
+          <p class="move-title">You Picked</p>
+          <div class="move-icon icon">
+            <img src="https://raw.githubusercontent.com/Alpha437/Rock-Paper-Scissors/45ab15ee3c69df5ee1279d28a368a7562fffcf9a/images/icon-paper.svg" alt="" class="paper-image user-move-icon">
+          </div>
+        </div>
+
+        <div class="user-pick house">
+          <p class="move-title">House Picked</p>
+          <div class="move-icon">
+            <img src="https://raw.githubusercontent.com/Alpha437/Rock-Paper-Scissors/45ab15ee3c69df5ee1279d28a368a7562fffcf9a/images/icon-paper.svg" alt="" class="paper-image user-move-icon">
+          </div>
+        </div>
+
+        <div class="result">
+          <p class="result-text">You Lose</p>
+          <button class="replay">Play again</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="rule-container">
+      <div class="rule-wrapper">
+        <p class="rule-title">Rules</p>
+        <img src="https://raw.githubusercontent.com/Alpha437/Rock-Paper-Scissors/45ab15ee3c69df5ee1279d28a368a7562fffcf9a/images/image-rules.svg" alt="rules" class="rule">
+        <img src="https://raw.githubusercontent.com/Alpha437/Rock-Paper-Scissors/45ab15ee3c69df5ee1279d28a368a7562fffcf9a/images/icon-close.svg" alt="close-icon" class="cancel">
+      </div>
+    </div>
+    <button class="rules">Rules</button>
+  </main>
+
+
+
+  <script src="week10.js"></script>
+</body>
+
+</html>
